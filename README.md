@@ -5,23 +5,23 @@ print "Welcome, please insert your health information."
 print "Please select one of the following conditions:"
 print "1. arrhythmia"
 print "2. high blood pressure"
-print "3. frequent cardic arrest"
+print "3. History of/prior cardic arrest"
 print "4. heart murmurs"
 print "5. coronary hartry disease"
 print "6. congestive heart failure"
 print "7. periphial artery disease"
 print "8. stroke"
-print "9. prior heart attacks"
+print "9. prior heart attack"
 print "10. cogenital heart disease"
 information = raw_input()
 if information == 'arrhythmia':
     print "We will monitor you heart rate, in case of emergency, we will contact the paramedics."
 elif information == 'high blood pressure':
     print "We will remind you what to avoid and any habits you fall victim to."
-elif information == 'frequent cardiac arrest':
+elif information == 'History of/prior cardiac arrest':
     print "We will constantly make sure your heart is stable."
 elif information == 'heart murmurs':
-    print "We recommend that you visit your doctor often"
+    print "We recommend that you visit your doctor often to monitor you conditon"
 elif information == 'coronary artery disease':
     print "We recommend that you try to lower your blood pressure to prevent any heart attacks." 
 elif information == 'congestive heart failure':
